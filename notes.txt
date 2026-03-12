@@ -1,0 +1,7 @@
+* code snippets are always associated with a creator
+
+* only auth users may create snippets
+
+* only the creator of a snippet may update or delete it
+
+*unauthenticated requset should have full read-only access
