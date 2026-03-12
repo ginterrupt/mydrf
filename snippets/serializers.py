@@ -9,7 +9,7 @@ class SnippetSerializer (serializers.ModelSerializer):
             "id",
             "title",
             "code",
-            "lineons",
+            "linenos",
             "language",
             "style"
         )
