@@ -1,14 +1,10 @@
-#snippets/admin.py
-
+# snippets/admin.py
 from django.contrib import admin
-
-
-# Register your models here.
-
 from .models import Snippet
 
 
 class SnippetAdmin(admin.ModelAdmin):
     readonly_fields = ("highlighted",)
 
-admin.site.register(Snippet,SnippetAdmin)
+
+admin.site.register(Snippet, SnippetAdmin)
